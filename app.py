@@ -6,7 +6,8 @@ app = Flask(__name__)
 # SQLite 데이터베이스 설정
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-``
+
+#112
 db = SQLAlchemy(app)
 
 # 사용자 모델 정의
